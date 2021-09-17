@@ -1,0 +1,33 @@
+body{
+background: rgb(253, 216, 3);
+}
+
+header{
+    font: bold 25pt copperplate;
+    color:white;
+    text-align: center;
+
+}
+
+div{
+    text-align: center;
+    padding: 3px;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    font: normal 18pt verdana;
+    text-align: center;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.329);
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

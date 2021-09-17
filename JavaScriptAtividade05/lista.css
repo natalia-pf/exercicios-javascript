@@ -1,0 +1,23 @@
+body{
+    background: rgb(81, 150, 127);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font: normal 20t arial;
+}
+h1{
+    color: white;
+    font: bolder 25pt arial;
+    text-align: center;
+}
+select#selecao{
+    width: 150px;
+}
+section{
+    background: white;
+    margin: auto;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 700px;
+    border-radius: 15px;
+}

@@ -1,0 +1,107 @@
+header{
+    font: bolder 12pt verdana;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: -54px;
+    margin-left: 500px;
+    
+}
+
+h1{
+    margin-right: 200px;
+    margin-left: 100px;;
+    font: bolder 12pt verdana;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+p.cadastro{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    background:rgba(0, 231, 154, 0.692);
+    border-radius: 60px;
+    border-color: rgb(255, 255, 255);
+}
+p{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 60px;
+    border-color: rgba(0, 231, 154, 0.692);
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+#selectUf, #date, #email, #name , #password{
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.123);
+    border-color: rgba(0, 231, 154, 0.692);
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+fieldset label{
+    font: bold 10pt verdana;
+    margin-left: 20%;
+
+}
+
+fieldset{
+    border:2px solid;
+    width: 300px;
+    margin-left: -20%;
+   
+}
+
+legend{
+    font: bolder 13pt verdana;
+    margin-bottom: 10%;
+    margin-left:58px;
+}
+
+#email:focus, #name:focus, #password:focus, #date:focus, #selectUf:focus{
+    background: rgba(227, 255, 246, 0.692);
+}
+
+.button{
+    border-radius: 50px;
+    height: 30px;
+    color: white;
+    font: bolder;
+    background: rgba(53, 121, 98, 0.692);
+    width: 80px;
+    border: 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
+    align-content: right;
+    margin-left: 70%;
+
+}
+
+.button:hover{
+    background: rgba(83, 179, 148, 0.692);
+}
+
+section{
+    font: bold 12pt verdana;
+    border: 1 solid;
+    margin-top: -27%;
+    margin-left: 55%
+}

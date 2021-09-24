@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url("pagina.png");
+    background-size: cover;
+}
+
+header{
+    color: white;
+    margin-left: 150px;
+    font: normal 10pt 'Cornerstone';
+    gap: 60px;
+    display: flex;
+    align-items: center;
+}
+p.home{
+    border-color: white;
+    border-radius: 60px;
+    height: 40px;
+    border: 1px solid;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font: normal 14pt 'Cornerstone';
+    gap:100px;
+    margin-right: 140px;
+    
+}
+
+p.title{
+    color: white;
+    font: bolder 60pt 'Cornerstone';
+    justify-content: center;
+    width: 1000px;
+    margin-top: 70px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+p.subtitle{
+    color: white;
+    display: flex;
+    font: bolder 18pt 'Cornerstone';
+    justify-content: center;
+    width: 600px;
+    margin-top: -15px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+p.text{
+    color: rgb(234, 253, 255);
+    font: bolder 17pt 'Cornerstone';
+    justify-content: center;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+
+img.img{
+ width: 200px;
+ height: auto;
+}
+
+section{
+    margin: auto;
+    justify-content: center;
+    gap: 60px;
+    margin-top:40px;
+    align-items: center;
+    display: flex;
+}
+
+div.button1{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    align-items: center;
+    font: bolder 13pt 'Cornerstone';
+    color: rgb(0, 15, 100);
+    background: rgb(255, 255, 255);
+}
+div.button2{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    align-items: center;
+    font: bolder 13pt 'Cornerstone';
+    color: rgb(0, 15, 100);
+    background: rgb(255, 255, 255);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <section id="calculator">
+
+        <input type="text" disabled placeholder="Conta" id="conta">
+        <input type="text" disabled placeholder="Valor digitado" id="caixaDeTexto">
+
+        <section id="numbers">
+    
+        <section id="acDivided" class="line">
+            <button id="clear" onclick="limpar()">AC</button>
+            <button id="divided" class="operators" value= "divided" onclick="registrarNumeros()">/</button>
+        </section>
+    
+            <section id="sevenToNine" class="line">
+                <button id="seven" value="7" onclick="registrarNumeros()">7</button>
+                <button id="eigth"value="8" onclick="registrarNumeros()">8</button>
+                <button id="nine"value="9" onclick="registrarNumeros()">9</button>
+                <button id="times" class="operators" value= "times" onclick="registrarNumeros()">x</button>
+            </section>
+    
+            <section id="fourToSix" class="line">
+                <button id="four"value="4" onclick="registrarNumeros()">4</button>
+                <button id="five"value="5" onclick="registrarNumeros()">5</button>
+                <button id="six"value="6" onclick="registrarNumeros()">6</button>    
+                <button id="minus" class="operators"  value= "minus" onclick="registrarNumeros()">-</button>        
+            </section>
+    
+            <section id="oneToThree" class="line">
+                <button id="one"value="1" onclick="registrarNumeros()">1</button>
+                <button id="two"value="2" onclick="registrarNumeros()">2</button>
+                <button id="three"value="3" onclick="registrarNumeros()">3</button>
+                <button id="plus" class="operators" value= "plus" onclick="registrarNumeros()">+</button>
+            </section>
+        
+            <section id="zeroDotEqual" class="line">
+                <button id="zero" value=0 onclick="registrarNumeros()">0</button>    
+                <button id="dot" onclick="registrarNumeros()" value='dot'>.</button>
+                <button id="equals" class="operators" value= "equals" onclick="realizarConta()" onclick="registrarNumeros()">=</button>
+            </section>
+    
+    
+        </section>
+
+    </section>
+    
+<script src="calculadora.js"></script>
+
+
+</body>
+</html>
